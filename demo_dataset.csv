@@ -1,0 +1,10 @@
+﻿uniprot_id,protein_name,gene_name,synonym,pdb_id,entry_id
+P04637,Cellular tumor antigen p53,TP53,p53,1TUP,P53_HUMAN
+P01308,Insulin,INS,IDDM2,4INS,INS_HUMAN
+P68871,Hemoglobin subunit beta,HBB,beta-globin,2HHB,HBB_HUMAN
+P69905,Hemoglobin subunit alpha,HBA1,alpha-globin,1HHO,HBA_HUMAN
+P00533,Epidermal growth factor receptor,EGFR,ERBB1,1M14,EGFR_HUMAN
+P04626,Receptor tyrosine-protein kinase erbB-2,ERBB2,HER2,1N8Z,ERBB2_HUMAN
+P42345,Serine/threonine-protein kinase mTOR,MTOR,FRAP1,4JSP,MTOR_HUMAN
+P31749,RAC-alpha serine/threonine-protein kinase,AKT1,PKB alpha,1UNQ,AKT1_HUMAN
+P00734,Prothrombin,F2,Coagulation factor II,1PPB,THRB_HUMAN

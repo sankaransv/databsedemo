@@ -1,0 +1,21 @@
+CREATE DATABASE IF NOT EXISTS protein_demo;
+USE protein_demo;
+
+-- 2. Create table
+CREATE TABLE proteins (
+    uniprot_id  VARCHAR(20)  NOT NULL PRIMARY KEY,
+    protein_name VARCHAR(255) NOT NULL,
+    gene_name   VARCHAR(50),
+    synonym     VARCHAR(100),
+    pdb_id      VARCHAR(10),
+    entry_id    VARCHAR(50)
+);
+
+-- 3. Load the CSV
+LOAD DATA LOCAL INFILE 'C:/xampp/htdocs/database_demo/dataset/demo_dataset.csv'
+INTO TABLE proteins
+FIELDS TERMINATED BY ','
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS
+(uniprot_id, protein_name, gene_name, synonym, pdb_id, entry_id);
